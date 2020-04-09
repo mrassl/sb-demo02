@@ -1,0 +1,13 @@
+package py.edu.mrassl.sbdemo02;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DemoApplication02Tests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
