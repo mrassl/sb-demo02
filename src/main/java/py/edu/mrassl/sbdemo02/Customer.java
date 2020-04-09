@@ -13,6 +13,7 @@ public class Customer {
   private Long id;
   private String firstName;
   private String lastName;
+  private int years;
 
   protected Customer() {}
 
@@ -39,4 +40,13 @@ public class Customer {
   public String getLastName() {
     return lastName;
   }
+
+  public int getYears(){
+    return years;
+  }
+
+  public void setYears(){
+    this.years=years;
+  }
+
 }
